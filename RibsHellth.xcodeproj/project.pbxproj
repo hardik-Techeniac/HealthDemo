@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB7341EC4C7B4C62F4B291CB /* Pods_RibsHellth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3D4460EF95AF037C6F0CF41 /* Pods_RibsHellth.framework */; };
+		F2548C082748BBBD004858D3 /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F2548BFE2748BBBD004858D3 /* OpenSans-ExtraBold.ttf */; };
+		F2548C092748BBBD004858D3 /* OpenSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F2548BFF2748BBBD004858D3 /* OpenSans-SemiBold.ttf */; };
+		F2548C0A2748BBBD004858D3 /* OpenSans-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F2548C002748BBBD004858D3 /* OpenSans-SemiBoldItalic.ttf */; };
+		F2548C0B2748BBBD004858D3 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F2548C012748BBBD004858D3 /* OpenSans-Bold.ttf */; };
+		F2548C0C2748BBBD004858D3 /* OpenSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F2548C022748BBBD004858D3 /* OpenSans-ExtraBoldItalic.ttf */; };
+		F2548C0D2748BBBD004858D3 /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F2548C032748BBBD004858D3 /* OpenSans-Italic.ttf */; };
+		F2548C0E2748BBBD004858D3 /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F2548C042748BBBD004858D3 /* OpenSans-BoldItalic.ttf */; };
+		F2548C0F2748BBBD004858D3 /* OpenSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F2548C052748BBBD004858D3 /* OpenSans-LightItalic.ttf */; };
+		F2548C102748BBBD004858D3 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F2548C062748BBBD004858D3 /* OpenSans-Regular.ttf */; };
+		F2548C112748BBBD004858D3 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F2548C072748BBBD004858D3 /* OpenSans-Light.ttf */; };
+		F2548C1A2748F019004858D3 /* Cardview.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2548C192748F019004858D3 /* Cardview.swift */; };
+		F293F8932747DA6F001EAD02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F293F8922747DA6F001EAD02 /* AppDelegate.swift */; };
+		F293F8952747DA6F001EAD02 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F293F8942747DA6F001EAD02 /* SceneDelegate.swift */; };
+		F293F89C2747DA70001EAD02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F293F89B2747DA70001EAD02 /* Assets.xcassets */; };
+		F293F89F2747DA70001EAD02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F293F89D2747DA70001EAD02 /* LaunchScreen.storyboard */; };
+		F293F8AF2747DB14001EAD02 /* RootRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F293F8AA2747DB14001EAD02 /* RootRouter.swift */; };
+		F293F8B02747DB14001EAD02 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F293F8AB2747DB14001EAD02 /* RootViewController.swift */; };
+		F293F8B12747DB14001EAD02 /* RootBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F293F8AC2747DB14001EAD02 /* RootBuilder.swift */; };
+		F293F8B22747DB14001EAD02 /* RootInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F293F8AD2747DB14001EAD02 /* RootInteractor.swift */; };
+		F293F8B32747DB14001EAD02 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F293F8AE2747DB14001EAD02 /* RootViewController.xib */; };
+		F293F8BA2747DDB8001EAD02 /* GraphRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F293F8B52747DDB8001EAD02 /* GraphRouter.swift */; };
+		F293F8BB2747DDB8001EAD02 /* GraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F293F8B62747DDB8001EAD02 /* GraphViewController.swift */; };
+		F293F8BC2747DDB8001EAD02 /* GraphBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F293F8B72747DDB8001EAD02 /* GraphBuilder.swift */; };
+		F293F8BD2747DDB8001EAD02 /* GraphInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F293F8B82747DDB8001EAD02 /* GraphInteractor.swift */; };
+		F293F8BE2747DDB8001EAD02 /* GraphViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F293F8B92747DDB8001EAD02 /* GraphViewController.xib */; };
+		F293F8C62747F106001EAD02 /* UINavigationController+SimpleMemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F293F8C22747F106001EAD02 /* UINavigationController+SimpleMemo.swift */; };
+		F293F8C92747F3C7001EAD02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F293F8C82747F3C7001EAD02 /* Main.storyboard */; };
+		F293F8CB2747F54F001EAD02 /* AppComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F293F8CA2747F54E001EAD02 /* AppComponent.swift */; };
+		F2C0396D274B634D001F0866 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C0396C274B634D001F0866 /* DataManager.swift */; };
+		F2C03971274B6547001F0866 /* ChartModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C03970274B6547001F0866 /* ChartModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5B853FBA142B41290EF8FAAC /* Pods-RibsHellth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RibsHellth.release.xcconfig"; path = "Target Support Files/Pods-RibsHellth/Pods-RibsHellth.release.xcconfig"; sourceTree = "<group>"; };
+		5BDB1978892B410A8BC62233 /* Pods-RibsHellth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RibsHellth.debug.xcconfig"; path = "Target Support Files/Pods-RibsHellth/Pods-RibsHellth.debug.xcconfig"; sourceTree = "<group>"; };
+		D3D4460EF95AF037C6F0CF41 /* Pods_RibsHellth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RibsHellth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2548BFE2748BBBD004858D3 /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		F2548BFF2748BBBD004858D3 /* OpenSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		F2548C002748BBBD004858D3 /* OpenSans-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		F2548C012748BBBD004858D3 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		F2548C022748BBBD004858D3 /* OpenSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		F2548C032748BBBD004858D3 /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Italic.ttf"; sourceTree = "<group>"; };
+		F2548C042748BBBD004858D3 /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		F2548C052748BBBD004858D3 /* OpenSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		F2548C062748BBBD004858D3 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		F2548C072748BBBD004858D3 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		F2548C192748F019004858D3 /* Cardview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cardview.swift; sourceTree = "<group>"; };
+		F293F88F2747DA6F001EAD02 /* RibsHellth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RibsHellth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F293F8922747DA6F001EAD02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F293F8942747DA6F001EAD02 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F293F89B2747DA70001EAD02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F293F89E2747DA70001EAD02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F293F8A02747DA70001EAD02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F293F8AA2747DB14001EAD02 /* RootRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootRouter.swift; sourceTree = "<group>"; };
+		F293F8AB2747DB14001EAD02 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		F293F8AC2747DB14001EAD02 /* RootBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootBuilder.swift; sourceTree = "<group>"; };
+		F293F8AD2747DB14001EAD02 /* RootInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootInteractor.swift; sourceTree = "<group>"; };
+		F293F8AE2747DB14001EAD02 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		F293F8B52747DDB8001EAD02 /* GraphRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphRouter.swift; sourceTree = "<group>"; };
+		F293F8B62747DDB8001EAD02 /* GraphViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphViewController.swift; sourceTree = "<group>"; };
+		F293F8B72747DDB8001EAD02 /* GraphBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphBuilder.swift; sourceTree = "<group>"; };
+		F293F8B82747DDB8001EAD02 /* GraphInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphInteractor.swift; sourceTree = "<group>"; };
+		F293F8B92747DDB8001EAD02 /* GraphViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GraphViewController.xib; sourceTree = "<group>"; };
+		F293F8C22747F106001EAD02 /* UINavigationController+SimpleMemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationController+SimpleMemo.swift"; sourceTree = "<group>"; };
+		F293F8C82747F3C7001EAD02 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		F293F8CA2747F54E001EAD02 /* AppComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppComponent.swift; sourceTree = "<group>"; };
+		F2C0396C274B634D001F0866 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		F2C03970274B6547001F0866 /* ChartModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F293F88C2747DA6F001EAD02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB7341EC4C7B4C62F4B291CB /* Pods_RibsHellth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06CEC8AD9B34FBA81C101D9F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5BDB1978892B410A8BC62233 /* Pods-RibsHellth.debug.xcconfig */,
+				5B853FBA142B41290EF8FAAC /* Pods-RibsHellth.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A36F27A5A13E2CD0D60AA180 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3D4460EF95AF037C6F0CF41 /* Pods_RibsHellth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F2548BFC2748BA99004858D3 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				F2548BFD2748BB96004858D3 /* OpenSans */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		F2548BFD2748BB96004858D3 /* OpenSans */ = {
+			isa = PBXGroup;
+			children = (
+				F2548C012748BBBD004858D3 /* OpenSans-Bold.ttf */,
+				F2548C042748BBBD004858D3 /* OpenSans-BoldItalic.ttf */,
+				F2548BFE2748BBBD004858D3 /* OpenSans-ExtraBold.ttf */,
+				F2548C022748BBBD004858D3 /* OpenSans-ExtraBoldItalic.ttf */,
+				F2548C032748BBBD004858D3 /* OpenSans-Italic.ttf */,
+				F2548C072748BBBD004858D3 /* OpenSans-Light.ttf */,
+				F2548C052748BBBD004858D3 /* OpenSans-LightItalic.ttf */,
+				F2548C062748BBBD004858D3 /* OpenSans-Regular.ttf */,
+				F2548BFF2748BBBD004858D3 /* OpenSans-SemiBold.ttf */,
+				F2548C002748BBBD004858D3 /* OpenSans-SemiBoldItalic.ttf */,
+			);
+			path = OpenSans;
+			sourceTree = "<group>";
+		};
+		F2548C122748C275004858D3 /* customView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = customView;
+			sourceTree = "<group>";
+		};
+		F2548C182748F019004858D3 /* CardView */ = {
+			isa = PBXGroup;
+			children = (
+				F2548C192748F019004858D3 /* Cardview.swift */,
+			);
+			path = CardView;
+			sourceTree = "<group>";
+		};
+		F293F8862747DA6F001EAD02 = {
+			isa = PBXGroup;
+			children = (
+				F293F8912747DA6F001EAD02 /* RibsHellth */,
+				F293F8902747DA6F001EAD02 /* Products */,
+				06CEC8AD9B34FBA81C101D9F /* Pods */,
+				A36F27A5A13E2CD0D60AA180 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F293F8902747DA6F001EAD02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F293F88F2747DA6F001EAD02 /* RibsHellth.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F293F8912747DA6F001EAD02 /* RibsHellth */ = {
+			isa = PBXGroup;
+			children = (
+				F2C0396F274B6376001F0866 /* Model */,
+				F2548C182748F019004858D3 /* CardView */,
+				F2548BFC2748BA99004858D3 /* Font */,
+				F293F8BF2747F106001EAD02 /* Extension */,
+				F293F8B42747DD8A001EAD02 /* Graph */,
+				F293F8A92747DAD8001EAD02 /* Root */,
+				F293F8A72747DAB8001EAD02 /* AppStart */,
+				F293F89B2747DA70001EAD02 /* Assets.xcassets */,
+				F293F8C82747F3C7001EAD02 /* Main.storyboard */,
+				F293F89D2747DA70001EAD02 /* LaunchScreen.storyboard */,
+				F293F8A02747DA70001EAD02 /* Info.plist */,
+			);
+			path = RibsHellth;
+			sourceTree = "<group>";
+		};
+		F293F8A72747DAB8001EAD02 /* AppStart */ = {
+			isa = PBXGroup;
+			children = (
+				F293F8922747DA6F001EAD02 /* AppDelegate.swift */,
+				F293F8942747DA6F001EAD02 /* SceneDelegate.swift */,
+				F293F8CA2747F54E001EAD02 /* AppComponent.swift */,
+			);
+			path = AppStart;
+			sourceTree = "<group>";
+		};
+		F293F8A92747DAD8001EAD02 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				F293F8AA2747DB14001EAD02 /* RootRouter.swift */,
+				F293F8AB2747DB14001EAD02 /* RootViewController.swift */,
+				F293F8AC2747DB14001EAD02 /* RootBuilder.swift */,
+				F293F8AD2747DB14001EAD02 /* RootInteractor.swift */,
+				F293F8AE2747DB14001EAD02 /* RootViewController.xib */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		F293F8B42747DD8A001EAD02 /* Graph */ = {
+			isa = PBXGroup;
+			children = (
+				F2548C122748C275004858D3 /* customView */,
+				F293F8B52747DDB8001EAD02 /* GraphRouter.swift */,
+				F293F8B62747DDB8001EAD02 /* GraphViewController.swift */,
+				F293F8B72747DDB8001EAD02 /* GraphBuilder.swift */,
+				F293F8B82747DDB8001EAD02 /* GraphInteractor.swift */,
+				F293F8B92747DDB8001EAD02 /* GraphViewController.xib */,
+				F2C0396C274B634D001F0866 /* DataManager.swift */,
+			);
+			path = Graph;
+			sourceTree = "<group>";
+		};
+		F293F8BF2747F106001EAD02 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F293F8C22747F106001EAD02 /* UINavigationController+SimpleMemo.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		F2C0396F274B6376001F0866 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F2C03970274B6547001F0866 /* ChartModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F293F88E2747DA6F001EAD02 /* RibsHellth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F293F8A32747DA70001EAD02 /* Build configuration list for PBXNativeTarget "RibsHellth" */;
+			buildPhases = (
+				AA0C7180E02AE843BE31E4E6 /* [CP] Check Pods Manifest.lock */,
+				F293F88B2747DA6F001EAD02 /* Sources */,
+				F293F88C2747DA6F001EAD02 /* Frameworks */,
+				F293F88D2747DA6F001EAD02 /* Resources */,
+				8C36E0A3C52C516F52B6F132 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RibsHellth;
+			productName = RibsHellth;
+			productReference = F293F88F2747DA6F001EAD02 /* RibsHellth.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F293F8872747DA6F001EAD02 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					F293F88E2747DA6F001EAD02 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = F293F88A2747DA6F001EAD02 /* Build configuration list for PBXProject "RibsHellth" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F293F8862747DA6F001EAD02;
+			productRefGroup = F293F8902747DA6F001EAD02 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F293F88E2747DA6F001EAD02 /* RibsHellth */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F293F88D2747DA6F001EAD02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2548C0A2748BBBD004858D3 /* OpenSans-SemiBoldItalic.ttf in Resources */,
+				F2548C0D2748BBBD004858D3 /* OpenSans-Italic.ttf in Resources */,
+				F293F89F2747DA70001EAD02 /* LaunchScreen.storyboard in Resources */,
+				F2548C112748BBBD004858D3 /* OpenSans-Light.ttf in Resources */,
+				F293F8C92747F3C7001EAD02 /* Main.storyboard in Resources */,
+				F2548C092748BBBD004858D3 /* OpenSans-SemiBold.ttf in Resources */,
+				F293F8BE2747DDB8001EAD02 /* GraphViewController.xib in Resources */,
+				F2548C0E2748BBBD004858D3 /* OpenSans-BoldItalic.ttf in Resources */,
+				F2548C0B2748BBBD004858D3 /* OpenSans-Bold.ttf in Resources */,
+				F293F89C2747DA70001EAD02 /* Assets.xcassets in Resources */,
+				F2548C0C2748BBBD004858D3 /* OpenSans-ExtraBoldItalic.ttf in Resources */,
+				F2548C102748BBBD004858D3 /* OpenSans-Regular.ttf in Resources */,
+				F293F8B32747DB14001EAD02 /* RootViewController.xib in Resources */,
+				F2548C0F2748BBBD004858D3 /* OpenSans-LightItalic.ttf in Resources */,
+				F2548C082748BBBD004858D3 /* OpenSans-ExtraBold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8C36E0A3C52C516F52B6F132 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RibsHellth/Pods-RibsHellth-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RibsHellth/Pods-RibsHellth-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RibsHellth/Pods-RibsHellth-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA0C7180E02AE843BE31E4E6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RibsHellth-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F293F88B2747DA6F001EAD02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F293F8B22747DB14001EAD02 /* RootInteractor.swift in Sources */,
+				F293F8932747DA6F001EAD02 /* AppDelegate.swift in Sources */,
+				F293F8AF2747DB14001EAD02 /* RootRouter.swift in Sources */,
+				F293F8B12747DB14001EAD02 /* RootBuilder.swift in Sources */,
+				F293F8CB2747F54F001EAD02 /* AppComponent.swift in Sources */,
+				F293F8BC2747DDB8001EAD02 /* GraphBuilder.swift in Sources */,
+				F293F8B02747DB14001EAD02 /* RootViewController.swift in Sources */,
+				F2C0396D274B634D001F0866 /* DataManager.swift in Sources */,
+				F2C03971274B6547001F0866 /* ChartModel.swift in Sources */,
+				F293F8BB2747DDB8001EAD02 /* GraphViewController.swift in Sources */,
+				F293F8BD2747DDB8001EAD02 /* GraphInteractor.swift in Sources */,
+				F293F8952747DA6F001EAD02 /* SceneDelegate.swift in Sources */,
+				F293F8C62747F106001EAD02 /* UINavigationController+SimpleMemo.swift in Sources */,
+				F2548C1A2748F019004858D3 /* Cardview.swift in Sources */,
+				F293F8BA2747DDB8001EAD02 /* GraphRouter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F293F89D2747DA70001EAD02 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F293F89E2747DA70001EAD02 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F293F8A12747DA70001EAD02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F293F8A22747DA70001EAD02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F293F8A42747DA70001EAD02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BDB1978892B410A8BC62233 /* Pods-RibsHellth.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QCCA222463;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RibsHellth/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.velocitydatasystems.RibsHellth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F293F8A52747DA70001EAD02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B853FBA142B41290EF8FAAC /* Pods-RibsHellth.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QCCA222463;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RibsHellth/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.velocitydatasystems.RibsHellth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F293F88A2747DA6F001EAD02 /* Build configuration list for PBXProject "RibsHellth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F293F8A12747DA70001EAD02 /* Debug */,
+				F293F8A22747DA70001EAD02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F293F8A32747DA70001EAD02 /* Build configuration list for PBXNativeTarget "RibsHellth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F293F8A42747DA70001EAD02 /* Debug */,
+				F293F8A52747DA70001EAD02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F293F8872747DA6F001EAD02 /* Project object */;
+}
